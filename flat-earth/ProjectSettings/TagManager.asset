@@ -41,18 +41,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Ground
-    uniqueID: 977565065
-    locked: 0
   - name: Water
     uniqueID: 3404361607
     locked: 0
-  - name: Player
-    uniqueID: 2408580171
+  - name: Ground
+    uniqueID: 977565065
     locked: 0
   - name: Ressources
     uniqueID: 3231605801
     locked: 0
   - name: Base
     uniqueID: 3499557343
+    locked: 0
+  - name: Player
+    uniqueID: 2408580171
     locked: 0
