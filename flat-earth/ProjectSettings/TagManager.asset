@@ -47,6 +47,9 @@ TagManager:
   - name: Ground
     uniqueID: 977565065
     locked: 0
+  - name: Mountain
+    uniqueID: 3936418393
+    locked: 0
   - name: Ressources
     uniqueID: 3231605801
     locked: 0
