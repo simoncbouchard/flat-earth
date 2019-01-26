@@ -6,12 +6,10 @@ public class hero : MonoBehaviour
 {
 
     private Rigidbody2D rb;
-    public float speed = 0.4f;
+    public float speed = 10f;
 
 
     void Start () {
-
-        Debug.Log("test");
 
         rb = GetComponent<Rigidbody2D> ();
     }
