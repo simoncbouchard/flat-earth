@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ressources : MonoBehaviour {
-    public GameObject resourceType;
-    public UIManager quantity;
-
+    public UIManager ResourceUI;
 
     void OnCollisionEnter2D(Collision2D collision) {
         //if (collision.gameObject.name == "hero") {
@@ -20,6 +18,6 @@ public class ressources : MonoBehaviour {
 
     private void collectResource()
     {
-        
+        ResourceUI.addOne();
     }
 }

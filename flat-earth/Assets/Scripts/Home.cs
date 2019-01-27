@@ -11,9 +11,11 @@ public class Home : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
+        Debug.Log("TEST TRIGGER");
         //if (Food.GetQuantity)
         Food.emptyAll();
     }
+
     // Start is called before the first frame update
     void Start()
     {
